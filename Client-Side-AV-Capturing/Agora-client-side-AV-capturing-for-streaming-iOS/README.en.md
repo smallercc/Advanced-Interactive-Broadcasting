@@ -35,7 +35,7 @@ Finally, Open Agora-client-side-AV-capturing-for-streaming-iOS.xcodeproj, connec
 ## Connect Us
 
 - You can find full API document at [Document Center](https://docs.agora.io/en/)
-- You can file bugs about this demo at [issue](https://github.com/AgoraIO/Basic-Video-Call/issues)
+- You can file bugs about this demo at [issue](https://github.com/AgoraIO/Advanced-Interactive-Broadcasting/issues)
 
 ## License
 
