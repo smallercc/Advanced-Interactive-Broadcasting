@@ -240,7 +240,7 @@ extension RoomViewController: AgoraRtcEngineDelegate {
         append(log: "stream Published With Url \(url), error: \(errorCode.rawValue)")
     }
     
-    func rtcEngine(_ engine: AgoraRtcEngineKit, streamUnpublishedWithUrl url: String) {
+    func rtcEngine(_ engine: AgoraRtcEngineKit, streamUnpublishedWithUrl url: String, errorCode: AgoraErrorCode) {
         rtmpButton.isSelected = false
         append(log: "stream Published With Url \(url)")
     }

@@ -347,7 +347,7 @@ extension LiveRoomViewController: AgoraRtcEngineDelegate {
         publishList.setResult(for: url, isSuccess: success)
     }
     
-    func rtcEngine(_ engine: AgoraRtcEngineKit, streamUnpublishedWithUrl url: String) {
+    func rtcEngine(_ engine: AgoraRtcEngineKit, streamUnpublishedWithUrl url: String, errorCode: AgoraErrorCode) {
         info(string: "unpublished With: \(url)")
     }
 }
